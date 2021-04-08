@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Book</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div id="container">
+      <h1 class="large">Add New Book </h1>
+      <hr>
+      <nav id="topnav">
+        <ul>
+          <a href="bookList.html">HOME |</a>
+        </ul>
+      </nav>
+      <br>
+      <br>
+    
+ <section id=formsection></section>
+    <form id="book-form" >
+      <div class="form-group">
+        <h4>Title</h4>
+        <input type="text" id="title" class="form-control">
+      </div>
+      <div class="form-group">
+        <h4>Author</h4>
+        <input type="text" id="author" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <h4>Rating</h4>
+        <input type="text" id="rating" class="form-control">
+      </div>
+    
+      <div class="form-group">
+        <h4>Price</h4>
+        <input type="text" id="price" class="form-control">
+      </div>
+      <div class="form-group">
+        <h4>ISBN#</h4>
+        <input type="text" id="isbn" class="form-control">
+      </div>
+  
+      <input type="submit" value="Add Book" id="add-button">
+    </form>
+  </section>
+  <br>
+  <hr>
+  <br><br>
+  <br>
+  <section id="tableSection">
+    <h1 class="header" >Currently Added Book</h1>
+    <br>
+    <hr>
+    <br>
+    <table class="table" id="mytable" style="margin-left: 20%;">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Rating</th>
+          <th>Price</th>
+          <th>ISBN#</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="book-list">
+
+      </tbody>
+    </table>
+  </section>
+  </div>
+</div>
+  <script type="module" src="./dist/src/book.js"></script>
+  <script type="module" src="./dist/src/bookManager.js"></script>
+</body>
+
+</html>

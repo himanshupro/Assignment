@@ -1,0 +1,133 @@
+
+@import 'variables';
+
+body{
+    line-height: 1.2;
+    margin: 2px;
+    background-color:$bgcolor;
+}
+
+#container{
+    width: 100%;
+    margin: auto;
+    padding-top: 2% ;
+    padding-bottom: 2%;
+    align-content: center;
+}
+
+#topnav{
+    background-color: $deepBlue;
+    padding: 5px;
+    text-align: right;
+    font-size: $myFontSize;
+    color: $offWhite;
+    overflow: hidden;
+    
+      a {
+        float: right;
+        color: $offWhite;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        &:hover {
+            background-color: $pinkLight;
+            color: black;
+          }
+      }
+}
+    
+#add-button{
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        background-color:olivedrab;
+        padding: 10px 50px;
+        margin: 5px;
+        margin-left: 45%;
+        &:hover{
+        background-color: darkorange;
+    }
+  }
+
+.header{
+    text-align: center;
+    font-size: 25px;
+    color: purple;
+    text-underline-position: below;
+}
+
+#search-button{
+    font-size: 15px;
+    font-weight: 500;
+    color: $offWhite;
+    background-color:olivedrab;
+    padding: 10px 50px;
+    display: block;
+    margin: 5px;
+    margin-left: 30%;
+    &:hover{
+    background-color: darkorange;
+    }
+}
+
+input[type="text"]{
+    font-size: $fontsize;
+    width: 390px;
+    min-width:100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+    table,th,td{
+        background-color:$tanLight;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        color: $offWhite;
+        border: 2px solid $myColor;
+        margin-left: 25%;
+         ;
+    }
+
+.form-group{
+    font-size: 20px;
+    color: $textcolor;
+    margin-left: 35%;
+}
+
+/* Style the search box */
+
+.option{
+    margin-left: 10% ;
+    #list{
+        color:$textcolor;
+        background-color: $list;
+        padding: 10px 10px;
+        font-size: 15px;
+    }#myInput1{
+    width: 30%;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgb(228, 90, 90);
+  }
+  #myInput2{
+    width: 30%;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgb(228, 90, 90);
+  }
+  #myInput3{
+    width: 30%;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgb(228, 90, 90);
+  }
+}
+
+  #myhometable{
+      margin-left: 20%;
+  }
+
+
+  

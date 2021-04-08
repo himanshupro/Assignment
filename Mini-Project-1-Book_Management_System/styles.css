@@ -1,0 +1,135 @@
+body {
+  line-height: 1.2;
+  margin: 2px;
+  background-color: lightblue;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#topnav {
+  background-color: #032f3e;
+  padding: 5px;
+  text-align: right;
+  font-size: 22px;
+  color: white;
+  overflow: hidden;
+}
+
+#topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#topnav a:hover {
+  background-color: #f3a0ae;
+  color: black;
+}
+
+#add-button {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  background-color: olivedrab;
+  padding: 10px 50px;
+  margin: 5px;
+  margin-left: 45%;
+}
+
+#add-button:hover {
+  background-color: darkorange;
+}
+
+.header {
+  text-align: center;
+  font-size: 25px;
+  color: purple;
+  text-underline-position: below;
+}
+
+#search-button {
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: olivedrab;
+  padding: 10px 50px;
+  display: block;
+  margin: 5px;
+  margin-left: 30%;
+}
+
+#search-button:hover {
+  background-color: darkorange;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  width: 390px;
+  min-width: 100px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+table, th, td {
+  background-color: #f3bd59;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border: 2px solid red;
+  margin-left: 25%;
+}
+
+.form-group {
+  font-size: 20px;
+  color: darkblue;
+  margin-left: 35%;
+}
+
+/* Style the search box */
+.option {
+  margin-left: 10%;
+}
+
+.option #list {
+  color: darkblue;
+  background-color: aquamarine;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.option #myInput1 {
+  width: 30%;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid #e45a5a;
+}
+
+.option #myInput2 {
+  width: 30%;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid #e45a5a;
+}
+
+.option #myInput3 {
+  width: 30%;
+  font-size: 20px;
+  padding: 5px;
+  border: 1px solid #e45a5a;
+}
+
+#myhometable {
+  margin-left: 20%;
+}
+/*# sourceMappingURL=styles.css.map */

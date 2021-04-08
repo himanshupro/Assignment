@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Management System</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div id="container">
+
+    <h1 class="large">Book Management System </h1>
+    <hr>
+    <nav id="topnav">
+      <ul>
+        <a href="addBook.html">ADD </a>
+        <a href="bookList.html">HOME |</a>
+      </ul>
+    </nav>
+    <br>
+    <br>
+
+    <div class="searchbar">
+
+      <div class="option">
+
+        <!-- <select id="list">
+          <option value="author" id="author">Author</option>
+          <option value="title" id="title">Title</option>
+          <option value="rating" id="rating">Rating</option>
+        </select> -->
+
+       
+        <input type="text" name="search" id="myInput1" onkeyup="searchByTitle()"  placeholder="Search By title ......" />
+        <input type="text" name="search" id="myInput2" onkeyup="searchByAuthor()" placeholder="Search By Author......" />
+        <input type="text" name="search" id="myInput3" onkeyup="searchByRating()" placeholder="Search By Rating......" />
+
+      </div>
+    </div>
+    <br>
+    <br>
+    <h2 class="header">Book List</h2>
+    <div class="table" id="myTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Rating</th>
+            <th>Price</th>
+            <th>ISBN#</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+      </table>
+    </div>
+    <br>
+    <script type="text/javascript" src="./src/bookList.js"></script>
+</body>
+
+</html>
