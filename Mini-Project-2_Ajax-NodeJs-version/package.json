@@ -1,0 +1,12 @@
+{
+  "name": "Mini-Project-2_Ajax-NodeJs-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server data_base/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
