@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="large" style="color:rgb(31, 84, 85)">Book Management System </h1>
+    </header>
+    <hr>
+    <nav>
+        <div class="topnav">
+            <a href="addBook.html">ADD </a>
+            <a href="home.html">HOME |</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <form class="search">
+        <label for="" ><h2 style="margin-left: 30%"> Search Book By ID</h2></label>
+        <input type="text" id="search" name="idSearch" style="margin-left: 30%;" placeholder="Enter book-ID and press Enter">
+    </form>
+
+    <br>
+    <br>
+    <h2 class="header">Book List</h2>
+    <div class="table" id="myTable">
+        <table id="bookList" class="table">
+            <thead>
+                <tr>
+                    <th>Cover</th>
+                    <th>ID</th>
+                    <th>ISBN</th>
+                    <th>TITLE</th>
+                    <th>AUTHOR</th>
+                    <th>PAGES</th>
+                    <th>PRICE</th>
+                    <th>RATING</th>
+                    <th>VOTES</th>
+                    <th>DETAILS</th>
+                   
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <br>
+
+
+    <!-- <script type="text/javascript" src="showBook.js"></script> -->
+    <script src="../dist/main.js"></script>
+</body>
+
+</html>
+
+<!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+<!-- <script src="search.js"></script> -->

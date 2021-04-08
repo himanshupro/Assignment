@@ -1,0 +1,19 @@
+{
+  "name": "Mini-Project-2_FetchApi-Book-working",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server data_base/db.json",
+    "build" : "webpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
